@@ -1,0 +1,28 @@
+body {
+	width: 100vw;
+}
+
+.container {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.container h1 {
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.container ul {
+	width: 100%;
+	list-style: none;
+}
+
+.container ul li {
+	background-color: #000;
+	color: #fff;
+	margin-bottom: 1rem;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+}
